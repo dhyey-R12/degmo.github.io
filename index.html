@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">	
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<div class="bg-primary text-primary line"></div>
+		<nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+			<!-- Brand -->
+			<img src="images/Pryde-Logo.png" class="img-fluid">
+			
+
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			
+			
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse " id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link text-primary" href="#">home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							Patient
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Link 1</a>
+							<a class="dropdown-item" href="#">Link 2</a>
+							<a class="dropdown-item" href="#">Link 3</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							Doctor
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Link 1</a>
+							<a class="dropdown-item" href="#">Link 2</a>
+							<a class="dropdown-item" href="#">Link 3</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							Individual ODP
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Link 1</a>
+							<a class="dropdown-item" href="#">Link 2</a>
+							<a class="dropdown-item" href="#">Link 3</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							Product & Servies
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Link 1</a>
+							<a class="dropdown-item" href="#">Link 2</a>
+							<a class="dropdown-item" href="#">Link 3</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">contact Us</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							Register for Free
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Link 1</a>
+							<a class="dropdown-item" href="#">Link 2</a>
+							<a class="dropdown-item" href="#">Link 3</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Login</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- header end-->
+	<!-- banner -->
+	<section class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="b_text">
+					<p>We give you the best!</p>
+					<h1 class="size"><spna class="text-primary ">Medical Services</spna><br>that you can trust</h1>
+					<div class="p_img"></div>
+					<p class="text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br>
+						do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+						Ut enim ad minim veniam, quis nostrud exercitation 
+					</p>
+					<button class="btn-btn"><span class=""><b>KNOW MORE</b></span></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- banner end-->
+	<!-- Our Services -->
+	<section>
+		<div class="container">
+			<div class=" Our_Services">
+				<div class="row">
+					<div class="col-sm-4">
+						<h2 class="f_size">Our Services<img src="images/decretion.png"></h2>
+						<div class="row icon">
+							<div class="col-sm-6 border text-center tab_col tablink" onclick="openCity('doctor consultation')" id="defaultOpen">
+								
+								<img src="images/doctor_consultation1.png" class="images" >
+								<p>doctor consultation</p>
+							</div>
+
+							<div class="col-sm-6 border text-center tab_col tablink" onclick="openCity('diagnostics-and-imaging')">
+
+								<img src="images/diagnostics-and-imaging.png" class="images" >
+								<p>diagnostics and imaging</p>
+							</div>
+
+							<div class="col-sm-6 border text-center tab_col tablink" onclick="openCity('physiotherapy')">
+
+								<img src="images/physiotherapy.png" class="images" >
+								<p>physiotherapy</p>
+							</div>
+
+							<div class="col-sm-6 border text-center tab_col tablink" onclick="openCity('medicine-and-medical-supplies')">
+
+								<img src="images/medicine-and-medical-supplies.png" class="images" >
+								<p>medicine and medical supplies</p>
+							</div>
+
+							<div class="col-sm-6 border text-center tab_col tablink" onclick="openCity('nursing')">
+
+								<img src="images/nursing.png" class="images" >
+								<p>nursing</p>
+							</div>
+							<div class="col-sm-6 border text-center tab_col tablink" onclick="openCity('wellness')">
+
+								<img src="images/wellness.png" class="images" >
+								<p>wellness</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-8">
+						<div class="Our_Services_img">
+							<div id="doctor consultation" class="tabcontent">
+								<img src="images/doctor_consultation1.png" class="images" >
+								<h5>doctor consultation</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+								</p>
+							</div>
+
+							<div id="diagnostics-and-imaging" class="tabcontent">
+								<img src="images/diagnostics-and-imaging.png" class="images" >
+								<h5>diagnostics and imaging</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+								</p>
+							</div>
+
+							<div id="physiotherapy" class="tabcontent">
+								<img src="images/physiotherapy.png" class="images" >
+								<h5>physiotherapy</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+								</p>
+							</div>
+
+							<div id="medicine-and-medical-supplies" class="tabcontent">
+								<img src="images/medicine-and-medical-supplies.png" class="images" >
+								<h5>medicine and medical supplies</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+								</p>
+							</div>
+
+							<div id="nursing" class="tabcontent">
+								<img src="images/nursing.png" class="images" >
+								<h5>nursing</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+								</p>
+							</div>
+
+							<div id="wellness" class="tabcontent">
+								<img src="images/wellness.png" class="images" >
+								<h5>wellness</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+								</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<!-- Our Services end-->
+	<!--meet our doctors-->
+	<section class="meet_our_doctors">
+		<h2 class="meet_Doctors">Meet Our Doctors<img src="images/decretion.png"></h2>
+
+		<div class="regular slider">
+			<div class=" text-center"class=" text-center">
+				<img class="image_part" src="images/team_1.jpg">
+				<p class="content">Dr. Archana Andavarapu - <br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_2.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_3.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_4.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_5.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center"class=" text-center">
+				<img class="image_part" src="images/team_1.jpg">
+				<p class="content">Dr. Archana Andavarapu - <br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_2.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_3.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_4.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			<div class=" text-center">
+				<img class="image_part " src="images/team_5.jpg">
+				<p class="content">Dr. Archana Andavarapu -<br> Consult A Pulmonologist <br> Online Anytime | CallHealth,<br> India</p>
+				<p class="content">MBBS, MD (Pulmonology)</p>
+				<p class="content"><b>Pulmonology</b></p>
+			</div>
+			
+		</div>	
+	</section>
+	<hr>
+	<!--meet our doctors end-->
+	<!--Our Customers-->
+	<section class="Our_Customer">
+		<div class="container">
+			<h1 class="Our_Customer_t">Our Customer<img src="images/decretion.png"></h1>
+
+			<div class=" row">
+				<div class="col-sm-2 border our_img">
+					<div class="">
+						<img src="images/partner_1.png" class=" img-fluid">
+					</div>
+				</div>
+				<div class="col-sm-2 border our_img">
+					<div class="">
+						<img src="images/partner_2.png" class=" img-fluid">
+					</div>
+				</div>
+				<div class="col-sm-2 border our_img">
+					<div class="">
+						<img src="images/partner_3.png" class=" img-fluid">
+					</div>
+				</div>
+				<div class="col-sm-2 border our_img">
+					<div class="">
+						<img src="images/partner_4.png" class=" img-fluid">
+					</div>
+				</div>
+				<div class="col-sm-2 border our_img">
+					<div class="">
+						<img src="images/partner_5.png" class=" img-fluid">
+					</div>
+				</div>
+				<!-- <div class="col-sm-2 border ml-2"><img src="images/partner_5.png" class=" img-fluid"></div> -->
+			</div>
+		</div>	
+	</section>
+	<!--Our Customers end-->
+	<!-- footer -->
+	<section>
+		<div class="container-fluid bg-dark">
+			<div class="row">
+				<div class="col-lg-4 fooetr_section1">
+					<span class="logo_footer"><img  src="images/Pryde-Logo.png" alt="Logo">
+					</span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+					</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="row">
+						<div class="col-sm-4  fooetr_section2">
+							<h5><img src="images/maps.png"><b class="head"> Address</b></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+						</div>
+						<div class="col-sm-4  fooetr_section2">
+							<h5><img src="images/call.png"><b class="head">Call us</b></h5>
+							<p>+91 99 88 765 432/</p>
+							<span>+91 99 88 765 431</span>
+						</div>
+						<div class="col-sm-4 fooetr_section2">
+							<h5><img src="images/email.png"><b class="head">Email</b></h5>
+							<p>Dummy@example.com</p>
+						</div>
+						<div class="container-fluid">
+							<div class="row fooetr_section_link">
+								<div class="col-sm-8 Copyright">
+									<p>Copyright&copy;2019.policy | terms & conditions | career</p>
+								</div>
+								<div class="col-sm-4">
+									<div class="social_link">
+										<a href="">	<img src="images/icon-1.png"></a>
+										<a href=""> <img src="images/icon-2.png"></a>
+										<a href=""><img src="images/icon-3.png"></a>
+										<a href=""><img src="images/icon-4.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer end-->
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		function openCity(cityName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablink");
+			for (i = 0; i < tablinks.length; i++) {
+			}
+			document.getElementById(cityName).style.display = "block";
+
+		}
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+		// meet our doctors
+		$(document).on('ready', function() {
+			$(".regular").slick({
+				dots: true,
+				infinite: true,
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				prevArrow:"<img src='images/left_btn.png' class=prev>",
+				nextArrow:"<img src='images/btn.png' class=next>",
+				responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 1,
+						infinite: false,
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+					}
+				}
+				]
+			});
+		});
+	</script>
+</body>
+</html>

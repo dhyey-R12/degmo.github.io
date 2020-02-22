@@ -1,0 +1,265 @@
+/*navbar*/
+.line{
+	height: 5px;
+}
+header{
+	box-shadow: 0px 0px 25px 0px gray;
+	background-color: blue;	
+}
+/*banner*/
+.banner{
+	background-image: url('../images/banner.jpg');
+	height: 606px;
+	/*width: 100%;*/
+	margin-top: 56px;
+	background-size: 100% ,;
+	/*background-size: cover; */
+	background-repeat: no-repeat;
+	position: relative;
+}
+.b_text{
+	margin-top: 113px;
+}
+.b_text p{
+	display: block;
+}
+.size{
+	margin-top: -15px;
+	font-size: 50px;
+}
+.p_img{
+	background-image:url('../images/decretion.png');
+	height: 10vh; 
+	background-repeat: no-repeat;
+}
+.text{
+	/*font-family: 'opensans';*/
+	font-size: 20px;
+	margin-bottom: 20px; 
+}
+.btn-btn{
+	border: solid blue;	
+	padding: 10px 25px 10px 25px;
+	background-color: transparent;
+	color: blue;
+}
+/*OurServices*/
+.Our_Services{
+	margin: 30px 0px 30px 0px;	
+	/*padding: 10px;*/
+}
+.f_size{
+	font-size: 30px;
+	width: 200%;
+	/*border: solid;*/
+}
+.f_size img{
+	margin-left: 50px;
+}
+.icon{
+	margin-top: 40px;
+}
+.tab_col{
+	padding: 20px;
+	margin: 0px 0px 30px 0px;
+	height: 140px; 	
+	width: 100%; 
+}
+.Our_Services_img{
+	background-image: url('../images/appointment-bg.jpg');
+	height: 483px;
+	width: 100%;
+	margin-top: 83px;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+/*Our_Services tabs*/
+.tab button.active {
+	color: blue;
+}
+
+.tabcontent {
+	padding: 60px;
+	color: white;
+}
+.tabcontent p {
+	margin-top: 10px;
+	color: white;
+}
+.tabcontent h5 {
+	margin-top: 10px;
+	color: white;
+}
+
+.tablink:hover {
+	color: blue;
+}
+/*meet over doctors*/
+.meet_our_doctors{
+	padding: 30px 0px 0px 0px;
+}
+.meet_Doctors{
+	margin-left: 30px;
+	font-size: 30px;
+}
+.meet_Doctors img{
+	margin-left: 50px;
+}
+.slider {
+	margin: 30px 25px;
+}
+
+.slick-slide {
+	margin: 0px 10px;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+/*our customer*/
+.Our_Customer{
+	margin: 40px;
+}
+.Our_Customer_t{
+	font-size: 30px;
+	margin: 10px;
+}
+.Our_Customer_t img{
+	margin-left: 50px;
+}
+.our_img{
+	margin: 20px 0px 15px 32px;
+}
+/*footer*/
+.fooetr_section1 p,.fooetr_section2 p,.fooetr_section2 span
+{
+	color: #757575;
+	margin-left: 55px;
+	font-size: 16.24px;
+}
+.fooetr_section1 p
+{
+	margin-top: 20px;
+}
+.logo_footer
+{
+	margin-left: 55px;
+}
+.head
+{
+	margin-left: 15px;
+}
+.fooetr_section2 h5
+{
+	color: white;
+}
+.fooetr_section1,.fooetr_section2
+{
+	padding: 20px 0px 20px 0px;
+	margin: 0px;
+}
+.fooetr_section1
+{
+	border-right:2px solid grey; 
+}
+.fooetr_section_link
+{
+	border-top: 2px solid grey;
+}
+.fooetr_section_link p
+{
+	margin-top: 20px;
+	float: left;
+	color: grey;
+}
+.social_link
+{
+	width: 100%;
+	padding-top: 10px;
+	text-align: center;
+}
+/*/////////// Responsive Queries ///////////*/
+
+@media only screen and (max-width: 1024px){
+	.f_size{
+		/*border: solid;*/
+		width: 200%;
+		margin: 0px;
+	}
+	.our_img{
+		margin-left: 26.5px;
+		/*width: 5%;*/
+	}
+}
+@media only screen and (max-width: 768px){
+
+	.f_size{
+		/*border: solid;*/
+		width: 200%;
+		margin: 0px;
+	}
+	.tab_col p{
+		font-size: 13px;
+	}
+	.our_img{
+		margin-left: 20px;
+		/*width: 5%;*/
+	}
+	.fooetr_section1
+	{
+		border-right: none;
+		border-bottom:2px solid grey; 
+	}
+}
+@media only screen and (max-width: 736px){
+	.f_size{
+		/*border: solid;*/
+		width: 300%;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	
+	.f_size{
+		/*border: solid;*/
+		width: auto;
+		margin: 0px;
+		padding: 0px;
+	}
+	.meet_Doctors{
+		margin-left: 30px;
+		font-size: 20px;
+	}
+	.meet_Doctors img{
+		margin-left: 20px;
+		width: 30%;		
+	}
+	.tab_col{
+		padding: 20px;
+		margin: 0px 14px 30px 14px;
+	}
+	.f_size{
+		font-size: 25px;
+	}
+	.f_size img{
+		margin-left:28px;
+	}
+	.Our_Services_img p{
+		font-size: 12px;
+	}
+	.our_img{
+		padding: 10px;
+		margin: 10px;
+	}
+}
+
+/*@media (max-width: 0px;) and (){
+
+}
